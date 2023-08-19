@@ -1,0 +1,26 @@
+.background-image{
+    background-image: url('../images/background-image-dark-600px.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 600px;
+}
+.headline{
+    h1{
+       font-size: 50px; 
+    }
+    p{
+        font-size: 20px;
+    }
+}
+
+a svg{
+    color: blue;
+}
+main .card{
+    max-width: 400px;
+}
+
+section.contact{
+    height: 400px;
+}
