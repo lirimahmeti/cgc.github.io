@@ -4,6 +4,7 @@
     background-attachment: fixed;
     background-size: cover;
     height: 600px;
+    
 }
 .headline{
     h1{
@@ -23,4 +24,25 @@ main .card{
 
 section.contact{
     height: 400px;
+}
+@media (max-width: 575.98px) {
+    .background-image{
+        background-image: url("../images/mobile-background.png");
+        background-attachment: scroll;
+    }
+}
+// `md` applies to small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+    .background-image{
+        background-image: url("../images/mobile-background.png");
+        background-attachment: scroll;
+    }
+}
+
+// `lg` applies to medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+    .background-image{
+        background-image: url("../images/mobile-background.png");
+        background-attachment: scroll;
+    }
 }
